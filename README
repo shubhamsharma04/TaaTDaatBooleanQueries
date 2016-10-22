@@ -1,0 +1,7 @@
+1) This project creates an in memory inverted index of RCV1 corpus from Reuters and performs BOOLEAN AND and OR queries using  Term-At-A-Time and Document-At-A-Time strategy. 
+
+2) The search terms in question are read from an input file. They must be space separated (and hence there should be no space within a query term) and must be present in the corpus dictionary. The results are published in a output file.
+
+2) This is a run of the mill maven project. To build the project execute mvn clean install. (from the project directory)
+
+3) You can run the jar by executing the following command - java -jar <name_of_jar> <path_of_input_file> <directory_location_of_unzipped_index>
